@@ -13,9 +13,7 @@ int main() {
     printf("Digite um numero inteiro positivo: ");
     scanf("%d", &numero);
 
-    if (numero < 0) {
-        printf("Por favor, reinicie o programa e digite um numero positivo.\n");
-    } else if (numero == 0) {
+    if (numero == 0) {
         printf("0");
     } else {
         printf("O numero %d em binario eh: ", numero);
